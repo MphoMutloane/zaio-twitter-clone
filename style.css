@@ -1,0 +1,11 @@
+*{
+    margin:0px;
+    color:white;
+    background-color: black;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+}
