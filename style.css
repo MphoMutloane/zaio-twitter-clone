@@ -16,7 +16,7 @@ body{
 .left-bar{
     width: 259px;
     height: 5337px;
-    border-right: 1px solid rgb(24 26 28);
+    border-right: 1px solid rgb(27 29 31);
     padding: 8px;
 }
 .categories{
@@ -84,7 +84,7 @@ body{
     font-weight: 500;
     text-align: center;
     color: rgb(113, 118, 123);
-    border-bottom: 1px solid rgb(24 26 28);
+    border-bottom: 1px solid rgb(27 29 31);
     cursor: pointer;
 }
 .for-you:hover{
@@ -97,23 +97,103 @@ body{
     font-size:15px;
     font-weight: 700;
     text-align: center;
-    border-bottom: 1px solid rgb(24 26 28);
-    border-right: 1px solid rgb(24 26 28);
+    border-bottom: 1px solid rgb(27 29 31);
+    border-right: 1px solid rgb(27 29 31);
     cursor: pointer;
 }
 .following:hover{
     background:rgb(24 24 24);
 }
-.account-nav img{
-    width: 40px;
+.first-post{
+    width:598px;
+    height:116px;
+    padding: 16px;
+    font-size:18px;
+    font-weight: 300;
+    color:rgb(231, 233, 234);
+    border-bottom: 1px solid rgb(27 29 31);
+    border-right: 1px solid rgb(27 29 31);
+}
+.first-post-what{
+    margin-top:2px;
+}
+.first-post-what i{
+    width:40px;
+    height:40px;
+}
+.first-post-icons{
+    margin-top: 10px;
+}
+.first-post-icons i{
+    color: rgb(19 100 155);
+    height: 10px;
+    width: 10px;
+    margin:0px 15px;
+}
+.first-post-icons button{
+    background-color: rgb(29, 155, 240);
+    width: 66px;
+    height: 36px;
+    padding: 0px 16px;
+    border:none;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 20px;
+    margin-right: 0px 20px;
+}
+.show-posts{
+    width:598px;
+    height:36px;
+    border-bottom: 1px solid rgb(27 29 31);
+    border-right: 1px solid rgb(27 29 31);
+}
+.show-posts p{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(19 100 155);
+    cursor: pointer;
+}
+.account1, .account2, .account3{
+    display: flex;
+    width: 598px;
+    height:492px;
+    padding: 12px 16px;
+    border-bottom: 1px solid rgb(27 29 31);
+    border-right: 1px solid rgb(27 29 31);
+}
+.circle-image{
+    height:470px;
+    margin: 0px 8px 0px 0px;
+}
+.circle-image img{
+    width:40px;
     height: 40px;
+    border-radius:100%;
 }
 .account-mid img{
-    width: 516px;
-    height: 344px;
+    width: 425px;
+    height: 250px;
+    border: 2px solid rgb(27 29 31);
+    border-radius: 15px;
 }
-.right-bar{
-
+.account-mid-top{
+    display: flex;
+}
+.account-mid-text{
+    width:425px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+.account-post{
+    width: calc(598px-40px);
+}
+.account-bottom{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 5px;
 }
 .who img{
     width: 40px;
